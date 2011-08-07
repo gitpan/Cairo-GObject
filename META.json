@@ -1,0 +1,48 @@
+{
+   "abstract" : "Integrate Cairo into the Glib type system",
+   "author" : [
+      "unknown"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.58, CPAN::Meta::Converter version 2.110930001",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Cairo-GObject",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : 0
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Cairo" : "1.062",
+            "ExtUtils::Depends" : "0.2",
+            "ExtUtils::MakeMaker" : 0,
+            "ExtUtils::PkgConfig" : "1.0",
+            "Glib" : "1.224"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Cairo" : "1.062",
+            "ExtUtils::Depends" : "0.2",
+            "ExtUtils::PkgConfig" : "1.0",
+            "Glib" : "1.224"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "1.000"
+}
