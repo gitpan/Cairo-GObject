@@ -5,13 +5,13 @@ author:
 build_requires:
   ExtUtils::MakeMaker: 0
 configure_requires:
-  Cairo: 1.062
+  Cairo: 1.080
   ExtUtils::Depends: 0.2
   ExtUtils::MakeMaker: 0
   ExtUtils::PkgConfig: 1.0
   Glib: 1.224
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.58, CPAN::Meta::Converter version 2.110930001'
+generated_by: 'ExtUtils::MakeMaker version 6.59, CPAN::Meta::Converter version 2.112621'
 license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,8 +22,8 @@ no_index:
     - t
     - inc
 requires:
-  Cairo: 1.062
+  Cairo: 1.080
   ExtUtils::Depends: 0.2
   ExtUtils::PkgConfig: 1.0
   Glib: 1.224
-version: 1.000
+version: 1.001

@@ -4,7 +4,7 @@
       "unknown"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.58, CPAN::Meta::Converter version 2.110930001",
+   "generated_by" : "ExtUtils::MakeMaker version 6.59, CPAN::Meta::Converter version 2.112621",
    "license" : [
       "unknown"
    ],
@@ -27,7 +27,7 @@
       },
       "configure" : {
          "requires" : {
-            "Cairo" : "1.062",
+            "Cairo" : "1.080",
             "ExtUtils::Depends" : "0.2",
             "ExtUtils::MakeMaker" : 0,
             "ExtUtils::PkgConfig" : "1.0",
@@ -36,7 +36,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Cairo" : "1.062",
+            "Cairo" : "1.080",
             "ExtUtils::Depends" : "0.2",
             "ExtUtils::PkgConfig" : "1.0",
             "Glib" : "1.224"
@@ -44,5 +44,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "1.000"
+   "version" : "1.001"
 }
