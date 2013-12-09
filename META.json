@@ -4,7 +4,7 @@
       "unknown"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.59, CPAN::Meta::Converter version 2.112621",
+   "generated_by" : "ExtUtils::MakeMaker version 6.68, CPAN::Meta::Converter version 2.131560",
    "license" : [
       "unknown"
    ],
@@ -22,14 +22,14 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "configure" : {
          "requires" : {
             "Cairo" : "1.080",
             "ExtUtils::Depends" : "0.2",
-            "ExtUtils::MakeMaker" : 0,
+            "ExtUtils::MakeMaker" : "0",
             "ExtUtils::PkgConfig" : "1.0",
             "Glib" : "1.224"
          }
@@ -44,5 +44,9 @@
       }
    },
    "release_status" : "stable",
-   "version" : "1.001"
+   "resources" : {
+      "homepage" : "http://gtk2-perl.sourceforge.net/",
+      "x_MailingList" : "gtk-perl-list [at] gnome.org"
+   },
+   "version" : "1.002"
 }
